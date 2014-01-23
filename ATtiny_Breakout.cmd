@@ -19,12 +19,12 @@ ChangePinName(J3, 2, 2)
 ChangePinName(J3, 1, 1)
 
 # Start of element C4
-ChangePinName(C4, 2, PIN2)
-ChangePinName(C4, 1, PIN1)
+ChangePinName(C4, 2, 2)
+ChangePinName(C4, 1, 1)
 
 # Start of element C3
-ChangePinName(C3, 2, PIN2)
-ChangePinName(C3, 1, PIN1)
+ChangePinName(C3, 2, 2)
+ChangePinName(C3, 1, 1)
 
 # Start of element X1
 ChangePinName(X1, 2, 2)
@@ -47,8 +47,8 @@ ChangePinName(C2, 2, -)
 ChangePinName(C2, 1, +)
 
 # Start of element C1
-ChangePinName(C1, 2, PIN2)
-ChangePinName(C1, 1, PIN1)
+ChangePinName(C1, 2, 2)
+ChangePinName(C1, 1, 1)
 
 # Start of element U1
 ChangePinName(U1, unknown, unknown)

@@ -1,4 +1,4 @@
-TARGET = ATtiny85_Breakout
+TARGET = ATtiny_Breakout
 
 .PHONY: clean gerber oshpark
 

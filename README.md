@@ -12,13 +12,15 @@ Contents
      B. PCB Design
 III. PARTS LIST
      A. Generating a BOM (Bill of Materials)
- IV. USAGE
-  V. SOFTWARE USED
+ IV. ASSEMBLY
+  V. USAGE
+ VI. SOFTWARE USED
+VII. COPYING
 
 
 
 I. SUMMARY
-----------
+==========
 This is a simple breakout board for Atmel's 8-bit AVR microcontroller,
 the ATtiny. It can be used with the ATtiny25, 45, or 85, since all
 three chips have the same pinout, but it was designed with the ATtiny85
@@ -44,14 +46,24 @@ footprints from the distribution were used, while others were created
 by hand. All custom footprints are also included in this package.
 
 
-III. USAGE
-==========
+
+III. PARTS LIST
+===============
 
 
 
+IV. ASSEMBLY
+============
 
-Software Used
--------------
+
+
+V. USAGE
+========
+
+
+
+VI. SOFTWARE USED
+=================
 gEDA/GAF
 GPL suite of Electronic Design Automation tools
 http://www.geda-project.org/
@@ -63,4 +75,24 @@ http://www.inkscape.org/
 pstoedit
 Translates PostScript and PDF graphics into other vector formats
 http://www.pstoedit.net/
+
+
+
+VII. COPYING
+============
+Open-source is/should be all about freedom, and some folks have different
+ideas about what freedoms you should have, even when you have access
+to their source code.
+
+Well, none of that here.
+
+This software is licensed under the WTFPL, or the appropriately titled
+"Do What The Fuck You Want To Public License."
+
+This means I really don't care what you do with these files. If you want
+to keep them to yourself, modify them, redistribute them, plaster your
+name all over them, sell them, burn them, or even make sweet, sweet love
+to them. You've got total freedom here, and I promise I won't sue.
+
+Go nuts, as they say.
 

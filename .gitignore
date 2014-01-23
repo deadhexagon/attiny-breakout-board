@@ -3,4 +3,7 @@
 *.pcb-
 *.pcb.bak
 *.sch~
+*.zip
+gerber/
+oshpark/
 
