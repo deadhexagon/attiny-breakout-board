@@ -1,0 +1,58 @@
+v 20121123 2
+P 0 400 300 400 1 0 0
+{
+T -100 400 5 10 0 0 0 0 1
+pintype=in
+T 755 395 5 10 1 1 0 4 1
+pinlabel=\_RESET\_
+T 205 445 5 10 1 1 0 6 1
+pinnumber=5
+T -100 400 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 1300 300 1300 1 0 0
+{
+T -300 1300 5 10 0 0 0 0 1
+pintype=io
+T 755 1295 5 10 1 1 0 4 1
+pinlabel=MISO
+T 205 1345 5 10 1 1 0 6 1
+pinnumber=1
+T -300 1300 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 700 300 700 1 0 0
+{
+T -300 700 5 10 0 0 0 0 1
+pintype=io
+T 755 695 5 10 1 1 0 4 1
+pinlabel=MOSI
+T 205 745 5 10 1 1 0 6 1
+pinnumber=4
+T -300 700 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 1000 300 1000 1 0 0
+{
+T -500 1000 5 10 0 0 0 0 1
+pintype=io
+T 555 995 5 10 1 1 0 1 1
+pinlabel=SCK
+T 205 1045 5 10 1 1 0 6 1
+pinnumber=3
+T -500 1000 5 10 0 0 0 0 1
+pinseq=2
+}
+B 300 200 900 1300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 995 0 8 10 1 1 0 0 1
+refdes=J?
+T 400 1600 9 10 1 0 0 0 1
+ISP
+T -5 -302 8 10 0 0 0 0 1
+device=AVRISP_HEADER_6PIN
+T 812 1662 8 10 0 0 0 0 1
+footprint=none
+T 12 -538 8 10 0 0 0 0 1
+author=Steven Cook
+T 12 -740 8 10 0 0 0 0 1
+symversion=1.1

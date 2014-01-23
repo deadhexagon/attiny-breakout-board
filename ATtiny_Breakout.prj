@@ -1,0 +1,4 @@
+schematics ATtiny_Breakout.sch
+output-name ATtiny_Breakout
+skip-m4
+
