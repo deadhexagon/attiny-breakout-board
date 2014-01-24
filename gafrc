@@ -1,8 +1,6 @@
 ; Add our own custom symbol paths
-(define symbolspath "./symbols")
-(component-library (build-path symbolspath "connectors"))
-(component-library (build-path symbolspath "ic"))
-(component-library (build-path symbolspath "switches"))
+(component-library "./symbols")
+(component-library "./templates")
 
 ; make-backup-files
 ;

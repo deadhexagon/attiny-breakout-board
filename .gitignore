@@ -1,9 +1,22 @@
+# Files generated with gsch2pcb
+*.cmd
+*.net
+
+# Log files
+pcb.log
+
 # Backup files
 *.new.pcb
 *.pcb-
 *.pcb.bak
 *.sch~
 *.zip
+
+# Output directories
 gerber/
 oshpark/
+
+# Templates
+templates/*.gnumeric
+templates/*.sym
 

@@ -1,0 +1,33 @@
+[options]
+wordswap	yes
+rotate_labels	no
+sort_labels	no
+generate_pinseq	yes
+sym_width	1300
+pinwidthvertical	400
+pinwidthhorizontal	400
+
+[geda_attr]						
+version	20060113 1
+name	ATTINY
+device	ATTINY
+refdes	U?
+footprint	none
+description	AVR 8-bit microcontroller with 2/4/8k flash ROM
+author	Steven Cook
+numslots	0
+dist-license	WTFPL
+use-license	unlimited
+documentation	http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf
+
+[pins]
+# <pin #> <pin seq #> <type> <style> <position> <net> <label>
+1	1	io	line	l		\_RESET\_
+2	2	io	line	l		XTAL1
+3	3	io	line	l		XTAL2
+4	4	pwr	none		GND	
+5	5	io	line	r		MOSI
+6	6	io	line	r		MISO
+7	7	io	line	r		SCK
+8	8	pwr	none		Vcc	
+

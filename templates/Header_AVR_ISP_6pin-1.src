@@ -1,0 +1,31 @@
+[options]
+wordswap	yes
+rotate_labels	no
+sort_labels	no
+generate_pinseq	yes
+sym_width	800
+pinwidthvertical	400
+pinwidthhorizontal	400
+
+[geda_attr]
+version	20060113 1
+name	ISP
+device	HEADER_AVR_ISP_6PIN
+refdes	U?
+footprint	none
+description	AVR ISP header, 6 pins
+author	Steven Cook
+numslots	0
+documentation	http://multimedia.3m.com/mws/mediawebserver?6666660Zjcf6lVs6EVs666UdhCOrrrrQ-
+dist-license	WTFPL
+use-license	unlimited
+
+[pins]
+# <pin #> <pin seq #> <type> <style> <position> <net> <label>
+1	1	io	line	l	MISO	MISO
+2	2	pwr	none		Vcc	
+3	3	io	line	l	SCK	SCK
+4	4	io	line	l	MOSI	MOSI
+5	5	io	line	l	RESET	\_RESET\_
+6	6	pwr	none		GND	
+
