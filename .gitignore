@@ -12,6 +12,11 @@ pcb.log
 *.sch~
 *.zip
 
+# Output files
+*.png
+*.eps
+*.ps
+
 # Output directories
 gerber/
 oshpark/
