@@ -21,6 +21,9 @@ pcb.log
 gerber/
 oshpark/
 
+# Binaries
+bin/**
+
 # Templates
 templates/*.gnumeric
 templates/*.sym

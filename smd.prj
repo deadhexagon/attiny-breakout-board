@@ -1,0 +1,4 @@
+schematics schematics/smd.sch
+output-name pcb/smd
+skip-m4
+

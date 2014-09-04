@@ -1,6 +1,5 @@
 ; Add our own custom symbol paths
 (component-library "./symbols")
-(component-library "./templates")
 
 ; make-backup-files
 ;

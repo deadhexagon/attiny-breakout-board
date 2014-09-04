@@ -8,8 +8,7 @@ pinwidthvertical	400
 pinwidthhorizontal	400
 
 [geda_attr]						
-version	20060113 1
-name	ATTINY
+version	20140201
 device	ATTINY
 refdes	U?
 footprint	none

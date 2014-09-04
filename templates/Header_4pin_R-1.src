@@ -8,8 +8,7 @@ pinwidthvertical	300
 pinwidthhorizontal	400
 
 [geda_attr]
-version	20060113 1
-name	
+version	20140201
 device	HEADER_4PIN_MALE
 refdes	J?
 footprint	none

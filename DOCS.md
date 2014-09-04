@@ -52,6 +52,12 @@ by hand. All custom footprints are also included in this package.
 III. PARTS LIST
 ===============
 
+| Part                          | Qty | Description |
+| ----------------------------- | ---:| ----------- |
+| ATtiny25/45/85 mcu            | 1   |             |
+| PDIP8 IC socket               | 1   |             |
+| PLCC resettable fuse (250 mA) | 1   |             |
+
 
 
 IV. ASSEMBLY
@@ -82,19 +88,12 @@ http://www.pstoedit.net/
 
 VII. COPYING
 ============
-Open-source is/should be all about freedom, and some folks have different
-ideas about what freedoms you should have, even when you have access
-to their source code.
+Open-source is/should be all about freedom, and some folks have different ideas about what freedoms you should have, even when you have access to their source code.
 
 Well, none of that here.
 
-This software is licensed under the WTFPL, or the appropriately titled
-"Do What The Fuck You Want To Public License."
+This software is licensed under the WTFPL, or the appropriately titled "Do What The Fuck You Want To Public License."
 
-This means I really don't care what you do with these files. If you want
-to keep them to yourself, modify them, redistribute them, plaster your
-name all over them, sell them, burn them, or even make sweet, sweet love
-to them. You've got total freedom here, and I promise I won't sue.
+This means I really don't care what you do with these files. If you want to keep them to yourself, modify them, redistribute them, plaster your name all over them, sell them, burn them, or even make sweet, sweet love to them. You've got total freedom here, and I promise I won't sue.
 
 Go nuts, as they say.
-
