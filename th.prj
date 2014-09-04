@@ -1,0 +1,4 @@
+schematics schematics/th.sch
+output-name pcb/th
+skip-m4
+
