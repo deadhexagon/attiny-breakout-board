@@ -7,13 +7,13 @@
 #GERBERS    = $(wildcard gerber/*.gbr)
 #DRILLS     = $(wildcard gerber/*.cnc)
 
-.PHONY: clean pcb
+.PHONY: clean pcb-th pcb-smd
 
 #tsymbols: $(TSYMBOLS)
 #symbols: $(SYMBOLS)
 
-#clean:
-#	rm -rf $(TSYMBOLS) *.zip ./gerber/
+clean:
+	rm -rf *.zip ./gerber/
 
 #check-symbols: $(TSYMBOLS)
 #	gsymcheck -vv $(SYMBOLS)
@@ -35,11 +35,16 @@
 #%.sym: %.src
 #	tragesym $< $@
 
-#pcb: symbols
-#	gsch2pcb $(TARGET).prj | tee pcb.log
+# Generate PCB .pcb files from gschem .sch sources
 
-#%.bom: %.sch
-#	gnetlist -g partslist3 -o $@ $<
+pcb-th:
+	gsch2pcb th.prj | tee pcb.log
+
+pcb-smd:
+	gsch2pcb smd.prj | tee pcb.log
+
+%.bom: schematics/%.sch
+	gnetlist -g partslist3 -o $@ $<
 
 #%.ps: %.pcb
 #	pcb -x ps --psfile $@ $<

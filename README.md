@@ -1,10 +1,11 @@
 ATtiny 25/45/85 Breakout Board
 ==============================
 
-Author: Steven Cook <visage@deadhexagon.com>
-Date:   January 16th, 2014
+Author:  Steven Cook <visage@deadhexagon.com>
+Date:    2014-01-16
+Updated: 2014-09-19
 
-This is just a short README. If you're looking for full assembly instructions or anything not in here, have a look at the documentation in the "DOCS" file.
+This is just a short README. If you're looking for full assembly instructions or anything not in here, have a look at the documentation in the "DOCS.md" file.
 
 SUMMARY
 -------

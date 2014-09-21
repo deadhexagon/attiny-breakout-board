@@ -1,15 +1,4 @@
 v 20130925 2
-C 19400 58800 1 0 0 Atmel-ATtiny85-1.sym
-{
-T 19840 58807 5 10 0 0 0 0 1
-device=ATTINY85-1
-T 19840 58407 5 10 0 0 0 0 1
-symversion=1.2
-T 21295 61300 5 10 1 1 0 0 1
-refdes=U1
-T 19395 58798 5 10 0 1 0 0 1
-footprint=DIP8
-}
 C 14300 60700 1 0 0 capacitor-1.sym
 {
 T 11500 59400 5 10 0 0 0 0 1
@@ -168,7 +157,7 @@ N 18000 58500 18000 58100 4
 T 18000 58500 5 10 0 1 0 0 1
 netname=GND
 }
-N 16700 58100 20800 58100 4
+N 16700 58100 20700 58100 4
 {
 T 18000 58100 5 10 0 1 0 0 1
 netname=GND
@@ -295,9 +284,9 @@ T 15600 58100 5 10 0 1 0 0 1
 netname=GND
 }
 C 12600 53500 0 0 0 title-B.sym
-C 20600 63300 1 0 0 vcc-1.sym
+C 20500 63300 1 0 0 vcc-1.sym
 {
-T 20600 63300 5 10 0 1 0 6 1
+T 20500 63300 5 10 0 1 0 6 1
 value=+5V
 }
 C 16700 62500 1 0 0 Switch_Momentary_NO-1.sym
@@ -307,7 +296,7 @@ refdes=S1
 T 16395 62275 5 10 0 0 0 0 1
 device=SWITCH_MOMENTARY_NO
 T 16400 61600 5 10 0 0 0 0 1
-footprint=Tactile-Switch-1
+footprint=Alps 5.2mm Low-Profile Tactile Switch SMD
 T 16400 61400 5 10 0 0 0 0 1
 symversion=1.0
 T 16900 63200 5 10 1 1 0 0 1
@@ -457,23 +446,32 @@ ISP can control the line.
 T 17500 57200 9 10 1 0 0 0 2
 Crystal (X1) is optional and can be any value up to what is allowed by
 the ATtiny. C3 and C4 values will depend on load capacitance of crystal.
-T 20800 63800 9 10 1 0 0 4 1
+T 20700 63800 9 10 1 0 0 4 1
 +5V
-C 20800 62000 1 90 0 fuse-1.sym
+C 20700 62000 1 90 0 fuse-1.sym
 {
-T 20400 62200 5 10 0 0 90 0 1
+T 20300 62200 5 10 0 0 90 0 1
 device=FUSE
-T 21000 62600 5 10 1 1 0 0 1
+T 20900 62600 5 10 1 1 0 0 1
 refdes=F1
-T 20200 62200 5 10 0 0 90 0 1
+T 20100 62200 5 10 0 0 90 0 1
 symversion=0.1
-T 21000 62400 5 10 1 1 0 0 1
+T 20900 62400 5 10 1 1 0 0 1
 value=250 mA
-T 21000 62200 5 10 1 1 0 0 1
+T 20900 62200 5 10 1 1 0 0 1
 comment=Resettable
-T 21000 62000 5 10 0 1 0 0 1
+T 20900 62000 5 10 0 1 0 0 1
 footprint=SMD-1206-F-1
 }
-N 20800 61600 20800 62000 4
-N 20800 62900 20800 63300 4
-N 20800 58100 20800 58800 4
+N 20700 61600 20700 62000 4
+N 20700 62900 20700 63300 4
+N 20700 58100 20700 58800 4
+C 19400 58800 1 0 0 Atmel-ATtiny85-1.sym
+{
+T 21500 61300 5 10 1 1 0 6 1
+refdes=U?
+T 19800 61700 5 10 0 0 0 0 1
+device=ATTINY
+T 19800 61900 5 10 0 0 0 0 1
+footprint=DIP8
+}
