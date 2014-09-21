@@ -137,9 +137,9 @@ value=2K2
 T 19600 54200 5 10 0 1 0 0 1
 footprint=ACY400
 }
-C 22200 63100 1 0 0 vcc-1.sym
+C 22200 61800 1 0 0 vcc-1.sym
 {
-T 22500 63500 5 10 1 1 0 6 1
+T 22500 62200 5 10 1 1 0 6 1
 value=+5V
 }
 C 22200 57600 1 0 0 ground.sym
@@ -149,7 +149,7 @@ C 17900 53700 1 0 0 Header_4pin_L-2.sym
 T 17914 55900 5 10 1 1 0 0 1
 refdes=J2
 T 17900 56500 5 10 0 0 0 0 1
-footprint=none
+footprint=Header 1x4
 T 17900 57500 5 10 0 0 0 0 1
 device=HEADER_1X4
 T 17900 56900 5 10 0 0 0 0 1
@@ -160,7 +160,7 @@ C 15100 53700 1 0 0 Header_4pin_R-2.sym
 T 15514 55900 5 10 1 1 0 0 1
 refdes=J1
 T 15500 56500 5 10 0 0 0 0 1
-footprint=none
+footprint=Header 1x4
 T 15500 57500 5 10 0 0 0 0 1
 device=HEADER_1X4
 T 15500 56900 5 10 0 0 0 0 1
@@ -408,16 +408,4 @@ footprint=none
 T 17700 54700 5 10 0 1 0 0 1
 symversion=1.0
 }
-C 22400 61800 1 90 0 fuse-1.sym
-{
-T 22000 62000 5 10 0 0 90 0 1
-device=FUSE
-T 22600 62300 5 10 1 1 0 0 1
-refdes=F1
-T 21800 62000 5 10 0 0 90 0 1
-symversion=0.1
-T 22600 62100 5 10 1 1 0 0 1
-value=250 mA
-}
-N 22400 63100 22400 62700 4
 N 22400 61800 22400 61400 4
