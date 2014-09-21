@@ -294,7 +294,7 @@ symversion=0.1
 T 22300 56400 5 10 1 1 0 0 1
 value=0.1uF
 T 21900 55900 5 10 0 0 0 0 1
-footprint=RCY100
+footprint=ACY200
 }
 C 21900 55100 1 0 0 capacitor-2.sym
 {
@@ -347,7 +347,7 @@ symversion=0.1
 T 14200 58100 5 10 1 1 0 0 1
 value=20 pF
 T 15200 57800 5 10 0 0 0 0 1
-footprint=RCY100
+footprint=ACY100
 }
 C 16700 57800 1 90 0 capacitor-1.sym
 {
@@ -360,7 +360,7 @@ symversion=0.1
 T 16800 58100 5 10 1 1 0 0 1
 value=20 pF
 T 16700 57800 5 10 0 0 0 0 1
-footprint=RCY100
+footprint=ACY100
 }
 C 14800 56700 1 0 0 ground.sym
 N 15000 57000 15000 57800 4
