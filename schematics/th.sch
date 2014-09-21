@@ -109,7 +109,7 @@ C 18700 54900 1 0 0 resistor-1.sym
 T 19000 55300 5 10 0 0 0 0 1
 device=RESISTOR
 T 18800 55200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R3
 T 19100 55200 5 10 1 1 0 0 1
 value=2K2
 T 19600 55200 5 10 0 1 0 0 1
@@ -120,7 +120,7 @@ C 18700 54400 1 0 0 resistor-1.sym
 T 19000 54800 5 10 0 0 0 0 1
 device=RESISTOR
 T 18800 54700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R4
 T 19100 54700 5 10 1 1 0 0 1
 value=2K2
 T 19600 54700 5 10 0 1 0 0 1
@@ -131,7 +131,7 @@ C 18700 53900 1 0 0 resistor-1.sym
 T 19000 54300 5 10 0 0 0 0 1
 device=RESISTOR
 T 18800 54200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R5
 T 19100 54200 5 10 1 1 0 0 1
 value=2K2
 T 19600 54200 5 10 0 1 0 0 1
@@ -149,7 +149,7 @@ C 17900 53700 1 0 0 Header_4pin_L-2.sym
 T 17914 55900 5 10 1 1 0 0 1
 refdes=J2
 T 17900 56500 5 10 0 0 0 0 1
-footprint=Header 1x4
+footprint=Header 1x4-1
 T 17900 57500 5 10 0 0 0 0 1
 device=HEADER_1X4
 T 17900 56900 5 10 0 0 0 0 1
@@ -160,7 +160,7 @@ C 15100 53700 1 0 0 Header_4pin_R-2.sym
 T 15514 55900 5 10 1 1 0 0 1
 refdes=J1
 T 15500 56500 5 10 0 0 0 0 1
-footprint=Header 1x4
+footprint=Header 1x4-1
 T 15500 57500 5 10 0 0 0 0 1
 device=HEADER_1X4
 T 15500 56900 5 10 0 0 0 0 1
@@ -173,7 +173,7 @@ refdes=J3
 T 26100 57700 5 10 0 0 0 0 1
 device=HEADER_AVR_ICSP_6PIN
 T 26100 57900 5 10 0 0 0 0 1
-footprint=none
+footprint=Header 2x3 Shrouded-1
 }
 C 16900 59900 1 0 0 Jumper_1x2-1.sym
 {
