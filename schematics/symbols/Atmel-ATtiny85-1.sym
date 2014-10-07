@@ -3,7 +3,7 @@ B 400 400 6400 2300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 6800 2800 8 10 1 1 0 6 1
 refdes=U?
 T 400 4800 5 10 0 0 0 0 1
-device=ATTINY_PDIP8
+device=ATTINY
 T 400 4000 5 10 0 0 0 0 1
 footprint=DIP8
 T 400 4200 5 10 0 0 0 0 1
@@ -11,7 +11,7 @@ author=Steven Cook <visage@deadhexagon.com>
 T 400 4400 5 10 0 0 0 0 1
 documentation=http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf
 T 400 4600 5 10 0 0 0 0 1
-description=AVR 8-bit microcontroller with 2/4/8k flash ROM
+description=AVR 8-bit microcontroller with 2/4/8kb flash ROM
 T 400 3800 5 10 0 0 0 0 1
 numslots=0
 T 400 3600 5 10 0 0 0 0 1
@@ -81,7 +81,7 @@ pinseq=3
 }
 T 500 1200 9 10 1 0 0 1 1
 PB4
-T 3700 2600 9 10 1 0 0 5 1
+T 3600 2600 9 10 1 0 0 5 1
 VCC
 P 7200 2200 6800 2200 1 0 0
 {
