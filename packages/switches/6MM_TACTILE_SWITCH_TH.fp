@@ -1,3 +1,4 @@
+# gEDA PCB Footprint
 Element[0x00 "6mm momentary pushbutton switch, normally open (through-hole)" "" "6MM_TACTILE_SWITCH_TH" 0 0 0 0 3 100 ""]
 (
 	Pin[0 0 8000 2000 8800 4000 "1" "1" ""]

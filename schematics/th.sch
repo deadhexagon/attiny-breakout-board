@@ -145,7 +145,7 @@ C 17900 53700 1 0 0 Header_4pin_L-2.sym
 T 17914 55900 5 10 1 1 0 0 1
 refdes=J2
 T 17900 56500 5 10 0 0 0 0 1
-footprint=Header 1x4-1
+footprint=HEADER 1X4 PIN-1
 T 17900 57500 5 10 0 0 0 0 1
 device=HEADER_1X4
 T 17900 56900 5 10 0 0 0 0 1
@@ -156,7 +156,7 @@ C 15100 53700 1 0 0 Header_4pin_R-2.sym
 T 15514 55900 5 10 1 1 0 0 1
 refdes=J1
 T 15500 56500 5 10 0 0 0 0 1
-footprint=Header 1x4-1
+footprint=HEADER 1X4 PIN-1
 T 15500 57500 5 10 0 0 0 0 1
 device=HEADER_1X4
 T 15500 56900 5 10 0 0 0 0 1
@@ -169,7 +169,7 @@ refdes=J3
 T 26100 57700 5 10 0 0 0 0 1
 device=HEADER_AVR_ICSP_6PIN
 T 26100 57900 5 10 0 0 0 0 1
-footprint=Header 2x3 Shrouded-1
+footprint=HEADER 2X3 PIN SHROUDED-1
 }
 C 15600 62850 1 0 0 Switch_Momentary_NO-1.sym
 {
@@ -308,7 +308,7 @@ refdes=Y1
 T 16700 59700 5 10 0 0 0 0 1
 symversion=0.1
 T 16500 59000 5 10 0 0 0 0 1
-footprint=HC49_2
+footprint=HC49-1
 }
 N 17200 58700 17200 59500 4
 {
@@ -329,7 +329,7 @@ refdes=C3
 T 17800 55000 5 10 0 0 90 0 1
 symversion=0.1
 T 16700 57800 5 10 0 0 0 0 1
-footprint=RCY100
+footprint=ACY100
 }
 C 17400 57800 1 90 0 capacitor-1.sym
 {
@@ -340,7 +340,7 @@ refdes=C4
 T 18500 55000 5 10 0 0 90 0 1
 symversion=0.1
 T 17400 57800 5 10 0 0 0 0 1
-footprint=RCY100
+footprint=ACY100
 }
 C 16300 56700 1 0 0 ground.sym
 N 16500 57000 16500 57800 4
@@ -408,7 +408,7 @@ symversion=0.1
 T 22600 62200 5 10 1 1 0 0 1
 value=240 mA
 T 20700 60400 5 10 0 1 0 0 1
-footprint=RCY200
+footprint=ACY200
 }
 N 22400 63100 22400 62700 4
 N 22400 61800 22400 61400 4
